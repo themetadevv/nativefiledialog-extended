@@ -9,7 +9,7 @@ project "nfd"
 
 	includedirs
   	{
-      	"src"
+      	"src/include"
   	}
 
 	files
