@@ -29,7 +29,7 @@ project "nfd"
 
         files
         {
-            "nfd/src/nfd_win.cpp"
+            "src/nfd_win.cpp"
         }
 
     filter "system:linux"
@@ -42,7 +42,7 @@ project "nfd"
 
         files
         {
-            "vendor/nfd/src/nfd_gtk.c"
+            "src/nfd_gtk.c"
         }
 
         links
@@ -60,7 +60,7 @@ project "nfd"
 
         files
         {
-            "vendor/nfd/src/nfd_cocoa.m"
+            "src/nfd_cocoa.m"
         }
 
 	filter "system:windows"
