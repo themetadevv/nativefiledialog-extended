@@ -15,8 +15,7 @@ project "nfd"
 	files
 	{
 	    "src/include/**.h",
-      	"src/include/**.hpp",
-      	"src/**.cpp",
+      	"src/include/**.hpp"
 	}
 
 	filter "system:windows"
